@@ -74,7 +74,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (androidChoice == 2) {
             i.putExtra("androidChoice", "scissors");
         }
-
+        else {
+            i.putExtra("Invalid choice");  
+        }
         this.startActivity(i);
     }
 }
